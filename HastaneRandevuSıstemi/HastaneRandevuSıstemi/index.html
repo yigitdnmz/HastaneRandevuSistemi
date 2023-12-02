@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="tasarim.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script src="jskod.js"></script>
+    
+    
+    <title>Hastane Kayıt</title>
+
+    <style>
+
+        body {
+            background-image: url("hmmm.jpg");
+        }
+    </style>
+
+
+
+
+
+
+</head>
+<body ng-app="myApp" ng-controller="denemeCtrl">
+    <!--ng-controller="formCtrl"-->
+
+
+
+
+
+    <div class="sayfa">
+
+
+
+
+
+        <div class="baslik"><h1>Hastane Randevu Sistemi</h1></div>
+        <div ust="ust">
+            <ul id="yataymenu">
+                <li><a href="#/!index">Kullanıcı Girişi</a></li>
+                <li><a href="#!aanasayfa">Anasayfa</a></li>
+                <li><a href="#!hakkimizda">Hakkımızda</a></li>
+                <li><a href="#!randevu">Randevu</a></li>
+                <li><a href="#!iletisim">İletişim</a></li>
+            </ul>
+        </div>
+        <div class="temizle"></div>
+        <div class="orta" ng-view>
+
+        </div>
+
+    </div>
+
+    <!--<script>
+
+        var app = angular.module("myApp", ["ngRoute"]);
+        app.config(function ($routeProvider) {
+            $routeProvider
+                .when("/", {
+                    templateUrl: "anasayfa.html"
+                })
+                .when("/hakkimizda", {
+                    templateUrl: "hakkimizda.html"
+                })
+                .when("/iletisim", {
+                    templateUrl: "iletisim.html"
+                });
+        });
+
+
+
+    </script>-->
+
+
+    <div class="orta_div" id="randevu_div"></div>
+
+
+    
+
+
+
+
+
+
+
+
+</body>
+</html>

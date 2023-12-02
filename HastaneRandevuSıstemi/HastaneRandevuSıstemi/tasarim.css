@@ -1,0 +1,216 @@
+.sayfa{
+    width: 1000px;
+    margin:auto;
+}
+
+ul#yataymenu{
+list-style-type: none;
+margin: 0;
+padding: 0;
+ 
+}
+#yataymenu li{
+float:left;
+}
+ 
+#yataymenu li a {
+display: block;
+background-color:#4779f1;
+color:white;
+height:50px;
+width: 130px;
+text-align: center;
+line-height:50px;
+text-decoration:none;
+transition:all .3s ease-in;
+}
+#yataymenu li a:hover{
+color: cornflowerblue;
+background-color: cornflowerblue;
+}
+
+.temizle{
+    clear: both;
+}
+
+.header {
+    width: 800px;
+    height: 80px;
+    text-align: center;
+    background-color: white;
+    }
+
+    .footer {
+        background-color: white;
+        text-align: center;
+    }
+
+    .leftMenu {
+        height: 500px;
+        background-color: white;
+        width: 150px;
+    }
+
+    .mainContent {
+        height: 650px;
+        background-color: white;
+        width: 650px;
+    }
+
+    a{
+        display:block;
+        padding:5px
+    }
+
+.orta{
+    min-height: 300px;
+}
+
+body {
+    background: #282838;
+    height: 100%;
+}
+
+.polaroid {
+    position: relative;
+    width: 300px;
+    float: left;
+    margin: 20px;
+}
+
+    .polaroid img {
+        border: 10px solid #fff;
+        border-bottom: 45px solid #fff;
+        -webkit-box-shadow: 3px 3px 3px #777;
+        -moz-box-shadow: 3px 3px 3px #777;
+        box-shadow: 3px 3px 3px #777;
+        width: 200%;
+    }
+
+    .polaroid p {
+        position: absolute;
+        text-align: center;
+        width: 200%;
+        bottom: 0px;
+        font: 400 18px/1 'Kaushan Script', cursive;
+        color: #888;
+    }
+
+
+body {
+    background: url(https://unsplash.it/1027/786);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.panel {
+    width: 550px;
+    height: 100px;
+    left: -webkit-calc( 50% - 250px );
+    top: 20%;
+    position: absolute;
+    border-radius: 10px;
+    -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 40px 50px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 15px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+}
+
+body {
+    background: url(https://unsplash.it/1027/786);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.panel {
+    width: 600px;
+    height: 150px;
+    left: -webkit-calc( 50% - 250px );
+    top: 60%;
+    position: absolute;
+    border-radius: 5px;
+    -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+}
+
+#form-alan {
+    width: 600px;
+    margin-top: 25px;
+}
+
+    #form-alan input, #form-alan textarea {
+        padding: 5px;
+        width: 471px;
+        font-family: Helvetica, sans-serif;
+        font-size: 1.4em;
+        margin: 0px 0px 10px 0px;
+        border: 2px solid #ccc;
+    }
+
+    #form-alan textarea {
+        height: 90px;
+    }
+
+        #form-alan textarea:focus, #form-alan input:focus {
+            border: 2px solid #900;
+        }
+
+    #form-alan input[type="submit"] {
+        width: 100px;
+        float: right;
+        border: 3px solid #2980b9;
+        background: #fff;
+        color: #2980b9;
+    }
+
+label {
+    float: left;
+    text-align: right;
+    margin-right: 15px;
+    width: 100px;
+    padding-top: 5px;
+    font-size: 1.4em;
+}
+
+select,
+#randevu_div input, 
+button{
+    position:relative;
+    width: 450px;
+    height: 40px;
+    margin-top: 15px;
+    background: #292830;
+    color: white;
+    cursor: pointer;
+}
+
+#randevu_div form {
+    position: relative;
+    top: 50px;
+
+}
+
+
+input[type="text"],
+input[type="password"]{
+
+    width: 50%;
+    margin: 10px;
+    height: 50px;
+    background: #fffff;
+    border-radius: 5px;
+    font-size: 25px;
+    text-align:;
+}
